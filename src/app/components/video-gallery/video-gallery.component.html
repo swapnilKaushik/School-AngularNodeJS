@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="head">{{ video.title }} <span class="date"> : {{ video.date }}</span></div>
+    <div class="flex">
+        <youtube-player [videoId]='video.videoID' class="youTube"></youtube-player>
+    </div>
+
+    <div class="gallery">
+        <div *ngFor="let album of gallery;" class="video">
+            <div 
+                [ngStyle]="{'box-shadow' : video.videoID === album.videoID ? 'rgba(0, 126, 238, 0.97) 2px 2px 13px 0px' : 'none'}"
+                (click)="video=album" 
+                class="thumb" 
+                [style.background-image]="'url(http://i3.ytimg.com/vi/' + album.videoID + '/maxresdefault.jpg)'"></div>
+            <div class="albTitle">{{ album.title }}</div>
+            <div class="albDate">{{ album.date }}</div>
+        </div>
+    </div>
+</div>

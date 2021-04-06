@@ -1,0 +1,26 @@
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: normal;
+    color: darkgrey;
+}
+
+.gallery {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 15px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.40);
+}
+
+.outerBox {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}

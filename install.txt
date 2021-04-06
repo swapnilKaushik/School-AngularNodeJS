@@ -1,0 +1,105 @@
+npm install aos --save
+npm install --save bootstrap
+npm install --save jquery
+npm install --save font-awesome angular-font-awesome
+
+npm install --save mongoose body-parser path
+
+
+npm install hammerjs --save
+npm install font-awesome --save
+npm install ngx-gallery-9 --save
+npm install @angular/youtube-player --save
+
+http://img.youtube.com/vi/<insert-youtube-video-id-here>/default.jpg
+
+For the default & normal quality thumbnail:
+  http://img.youtube.com/vi/<youtube-video-id>/default.jpg
+For the high quality (HQ) thumbnail:
+  http://img.youtube.com/vi/<youtube-video-id>/hqdefault.jpg
+There is also a medium quality thumbnail:
+  http://img.youtube.com/vi/<youtube-video-id>/mqdefault.jpg
+For the maximum resolution thumbnail:
+  http://img.youtube.com/vi/<youtube-video-id>/maxresdefault.jpg
+
+<youtube-player 
+  videoId="GYAB4Td62zI" 
+  suggestedQuality="highres" 
+  [height]="250" 
+  [width]="500" 
+  [startSeconds]="'4'"
+  [endSeconds]="8">
+</youtube-player>
+
+
+"./node_modules/font-awesome/css/font-awesome.min.css"
+"./node_modules/angular-font-awesome/dist/angular-font-awesome.js"
+
+
+
+
+{
+  "title": "Album1",
+  "date": "03-Aug-2020",
+  "images": [
+      "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1502447533750-9860c1269ae3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "https://images.unsplash.com/photo-1473172707857-f9e276582ab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"      
+    ]  
+}
+
+{
+  "title": "Album2",
+  "date": "24-Jul-2020",
+  "images": [
+      "https://images.unsplash.com/photo-1521834029104-b056ecebbb05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=669&q=80",
+      "https://images.unsplash.com/photo-1503864664483-e8a499e2eb22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+      "https://images.unsplash.com/photo-1520985244272-9d0b8067a4ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+    ]  
+}
+
+
+{
+  "title": "Album",
+  "date": "03-Aug-2020",
+  "images": [
+      "",
+      "",
+      ""
+    ]  
+}
+
+{
+  "title": "Album3",
+  "date": "03-Sept-2020",
+  "images": [
+      "https://images.unsplash.com/photo-1473172707857-f9e276582ab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1466377578534-552594dde567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80",
+      "https://images.unsplash.com/photo-1452630271011-9b7f6cb309dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80"
+    ]  
+}
+
+{
+  "title": "Album4",
+  "date": "12-Jun-2020",
+  "images": [
+      "https://images.unsplash.com/photo-1572716680685-c71db7198f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "https://images.unsplash.com/uploads/1412825195419af52b492/8bc72ed7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
+      "https://images.unsplash.com/photo-1574544987945-4136497d836b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1477936821694-ec4233a9a1a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+      "https://images.unsplash.com/photo-1566052907859-652cb43a9fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=674&q=80",
+      "https://images.unsplash.com/photo-1474140214938-f0295cf3d18e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "https://images.unsplash.com/photo-1497010184051-25b08385ab1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1475265030331-ec191c580a5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"
+    ]  
+}
+
+{
+  "title": "Album",
+  "date": "03-Aug-2020",
+  "images": [
+      "https://drive.google.com/uc?export=view&id=1W_yAWNtf1axJ7f8i76eISzeyhjgD7KOD",
+      "https://drive.google.com/uc?export=view&id=1Gtn_Lk_ED0dVUugKoAiOFIaKjxidY8vd",
+      "https://drive.google.com/uc?export=view&id=1sQbY2X-EoNyGrz7p4XeGHzk9RJbHQuJu"
+    ]  
+}

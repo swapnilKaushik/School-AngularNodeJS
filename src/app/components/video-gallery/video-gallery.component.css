@@ -1,0 +1,63 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.video {
+    margin: 10px;;
+}
+
+.thumb {
+	border: 2px solid White;
+	background-color: #0000000d;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 200px;
+    display: inline-block;
+    transition: transform .5s ease-in-out;
+}
+
+.thumb:hover {
+    transform: scale(1.15);
+}
+
+.albTitle {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.albDate {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fluid {
+    padding: 15px;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: normal;
+    color: darkgrey;
+}

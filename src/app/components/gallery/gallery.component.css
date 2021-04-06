@@ -1,0 +1,80 @@
+.container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.album {
+	height: auto;
+	width: 310px;
+	display: inline-block;
+	margin: 35px;
+}
+
+.div1, .div2, .div3 {
+	background-color: #fff;
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .40);
+}
+
+.div1 {
+	height: 200px;
+	width: 310px;
+	display: inline-block;
+	margin: 10px;
+	transform: rotate(5deg);
+	transition: transform .2s ease-in-out, height .2s ease-in-out, width .2s ease-in-out;
+}
+
+.div2 {
+	height: 98%;
+	width: 98%;
+	margin: auto;
+	transform: rotate(-15deg);
+	transition: transform .2s ease-in-out, height .2s ease-in-out, width .2s ease-in-out;
+}
+
+.div3 {
+	height: 98%;
+	width: 98%;
+	margin: auto;
+	transform: rotate(6deg);
+	transition: transform .2s ease-in-out, height .2s ease-in-out, width .2s ease-in-out;
+}
+
+.div4 {
+	height: 90%;
+	width: 90%;
+	margin: auto;
+	border: 10px solid White;
+	background-color: #0000000d;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: rotate(7deg);
+	transition: transform .2s ease-in-out, height .2s ease-in-out, width .2s ease-in-out;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.40);
+}
+
+.div1:hover {
+	transform: rotate(0deg);
+}
+
+.div1:hover .div2, .div1:hover .div3, .div1:hover .div4{
+	transform: rotate(0deg);
+	height: 100%;
+	width: 100%;
+}
+
+
+.albTitle {
+	text-align: center;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.albDate {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 17px;
+}
